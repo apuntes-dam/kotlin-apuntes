@@ -1,27 +1,24 @@
 # 1.1 Un programa
 
-Un **programa** es una secuencia de instrucciones que un ordenador ejecuta para resolver un problema. Antes de escribirlo hay que tener claro el **algoritmo**: los pasos, en orden, que llevan de unos datos de entrada a un resultado.
+Un **programa** es una secuencia de instrucciones que resuelve un problema, y el **algoritmo** son los pasos, en orden, que van de los datos de entrada al resultado.
 
-## Ciclo de desarrollo
+!!! info "La teoría general está aparte"
+    Qué es un algoritmo, el ciclo de desarrollo y el **pseudocódigo** son iguales en todos los lenguajes, así que están en una sola página: [Fundamentos: algoritmos y pseudocódigo](https://dopemmanuel.github.io/apuntes-lenguajes/fundamentos/). Aquí solo ves cómo se traduce a Kotlin.
 
-1. **Analizar** el problema: qué entra, qué debe salir.
-2. **Diseñar** el algoritmo (pseudocódigo o diagrama).
-3. **Codificar** en un lenguaje (aquí, Kotlin).
-4. **Compilar, probar** y corregir.
-5. **Documentar** y mantener.
+## Del pseudocódigo a Kotlin
 
-## Pseudocódigo
+El algoritmo del área de un rectángulo, en pseudocódigo:
 
 ```text
 ALGORITMO areaRectangulo
   LEER base
   LEER altura
   area <- base * altura
-  ESCRIBIR area
+  ESCRIBIR "Área:", area
 FIN
 ```
 
-## Del pseudocódigo a Kotlin
+y su traducción a Kotlin:
 
 ```kotlin
 fun main() {
@@ -40,6 +37,8 @@ fun main() {
 | `LEER x` | `readln()` (devuelve texto; se convierte con `.toInt()`, `.toDouble()`) |
 | `x <- expresión` | `x = expresión` |
 | `ESCRIBIR x` | `println(x)` |
+| `SI ... SINO ... FIN SI` | `if` / `else` (ver [1.2](02-lenguaje.md)) |
+| `PARA` / `MIENTRAS` | `for` / `while` (ver [1.6](06-bucles.md)) |
 
-!!! warning "Errores típicos al diseñar"
-    Olvidar un caso (por ejemplo, base cero), usar una variable sin inicializar (Kotlin no compila) y mezclar tipos sin convertir.
+!!! warning "Errores típicos en Kotlin"
+    Usar una variable sin inicializar (no compila) y olvidar que `Int / Int` es división entera. Los errores generales de diseño (olvidar un caso, bucles que no terminan…) están en [Fundamentos](https://dopemmanuel.github.io/apuntes-lenguajes/fundamentos/).

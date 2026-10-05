@@ -11,6 +11,7 @@ Apuntes personales para aprender **Kotlin**, organizados con la misma estructura
 | [Entorno](u01/05-entorno.md) | JDK, IntelliJ IDEA, `kotlinc` y Gradle |
 | [Prácticas](u01/practicas.md) | Guía de prácticas de la unidad |
 | [Ejercicios de Programación](ejercicios/index.md) | 73 ejercicios adaptados con soluciones modelo |
+| [Ejercicios U3 a U5](ejercicios-u3-u5/index.md) | Cadenas, colecciones, JSON/XML y POO |
 
 !!! note "Qué es Kotlin"
     Kotlin es un lenguaje **tipado estático, conciso y con null safety**, que se ejecuta en la JVM (y también en Android, web y nativo). Es el lenguaje preferido para Android y es 100 % interoperable con Java.

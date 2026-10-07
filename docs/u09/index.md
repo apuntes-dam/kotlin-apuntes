@@ -10,9 +10,6 @@ Guardar datos en una **base de datos relacional** desde el código: conexión, s
 * Transacciones: `commit` y `rollback`.
 * Capa de acceso a datos (DAO).
 
-!!! tip "Dónde repasarlo en Kotlin"
-    Documentación oficial: [kotlinlang.org/docs](https://kotlinlang.org/docs/home.html). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

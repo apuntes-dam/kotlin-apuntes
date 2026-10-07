@@ -10,9 +10,6 @@ Las colecciones donde se guardan los datos: cadenas, listas, mapas (diccionarios
 * Conjuntos: elementos sin repetir y operaciones de unión, intersección y diferencia.
 * JSON y XML: leer, modificar y guardar datos en un archivo.
 
-!!! tip "Dónde repasarlo en Kotlin"
-    Documentación oficial: [kotlinlang.org/docs](https://kotlinlang.org/docs/home.html). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

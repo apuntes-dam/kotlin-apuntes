@@ -8,9 +8,6 @@ Diseñar bien: jerarquías de clases con sentido, los cinco principios **SOLID**
 * Principios SOLID: S, O, L, I y D.
 * Cuándo comentar y cuándo no; documentación de clases y funciones.
 
-!!! tip "Dónde repasarlo en Kotlin"
-    Documentación oficial: [kotlinlang.org/docs](https://kotlinlang.org/docs/home.html). Busca los términos de la lista anterior.
-
 ## Ejercicios de la unidad
 
 | Bloque | Ejercicios |

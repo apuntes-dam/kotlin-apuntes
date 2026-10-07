@@ -55,6 +55,7 @@ nav:
       - "1.5 Entorno: JDK, IntelliJ y kotlinc": u01/05-entorno.md
       - "1.6 Bucles: for y forEach": u01/06-bucles.md
       - "Prácticas": u01/practicas.md
+      - "Ejercicios de la unidad 1": u01/ejercicios.md
   - "U2 · Estructuras de control":
       - u02/index.md
       - "2.1 Condicionales": u02/01-condicionales.md

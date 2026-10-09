@@ -2,6 +2,9 @@
 
 Los programas guardan datos en **archivos**, organizados en **carpetas** (directorios). Saber consultar, crear, copiar, mover y borrar es la base para cualquier programa que trabaje con datos que deben sobrevivir al cierre.
 
+!!! tip "En el módulo de Acceso a Datos se usa `Path`"
+    Esta página usa `File`, que es lo más corto. Kotlin también tiene la clase `Path` (paquete `kotlin.io.path`), que es la que se usa en Acceso a Datos y lanza excepciones que explican el fallo. Está en [7.E](t-path.md), con la tabla de equivalencias de `File` a `Path`.
+
 ## Rutas
 
 Una **ruta** indica dónde está un archivo o carpeta.

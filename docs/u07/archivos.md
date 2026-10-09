@@ -9,7 +9,7 @@ Consultar rutas, listar carpetas y crear o borrar ficheros y directorios.
 **Información de una ruta.** Pide una ruta y muestra: si existe, si es archivo o carpeta, su nombre, su ruta absoluta, su carpeta padre, su tamaño (si es archivo) y su fecha de última modificación. Si no existe, indícalo sin que el programa falle.
 
 !!! note "En Kotlin"
-    Usa `java.io.File` o `java.nio.file.Path` con las funciones de extensión de `kotlin.io.path`.
+    Usa `Path` con las funciones de `kotlin.io.path` (ver [7.E](t-path.md)) o `java.io.File`.
 
 ## Ejercicio 7.5
 

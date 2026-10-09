@@ -9,7 +9,7 @@ Leer y escribir texto: secuencial, línea a línea, y siempre cerrando el archiv
 **Contador.** Dado un archivo de texto, muestra su número de líneas, de palabras y de caracteres.
 
 !!! note "En Kotlin"
-    Usa `File.readLines()`, `readText()` o `useLines { }`.
+    Usa `File.readLines()`, `readText()` o `useLines { }`; para leer por bloques, mira [7.E](t-path.md).
 
 <details class="sol" data-key="u69/u7-3/7.7">
 <summary>Solución modelo (bloqueada)</summary>

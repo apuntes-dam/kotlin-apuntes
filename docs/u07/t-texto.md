@@ -2,6 +2,9 @@
 
 Un **fichero de texto** guarda caracteres legibles (notas, configuraciones, registros, CSV, JSON...). Se puede abrir con cualquier editor, a diferencia de un fichero **binario** (una imagen, un ejecutable). Leer y escribir texto es lo más habitual al trabajar con datos.
 
+!!! tip "Leer y escribir por bloques"
+    Aquí se lee y escribe el archivo entero o línea a línea. Para trabajar **por bloques de caracteres** (`CharArray`) y con ficheros **binarios** (bytes) mira [7.E](t-path.md).
+
 ## Crear, añadir y leer
 
 `writeText` **crea o sobrescribe**, `appendText` **añade** al final, `readLines` devuelve la lista de líneas y `readText`, todo el contenido. Para trabajar **línea a línea** sin cargar todo en memoria se usa `useLines { ... }` para leer y `bufferedWriter().use { ... }` para escribir: la función **`use`** **cierra** el archivo al terminar aunque haya un error. La codificación por defecto es UTF-8.

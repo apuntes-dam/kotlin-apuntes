@@ -8,7 +8,7 @@ Hablar con el exterior: la consola, el sistema de archivos, los ficheros de text
 * [7.B Archivos y carpetas](t-archivos.md): rutas, consultar, copiar, mover y borrar.
 * [7.C Ficheros de texto](t-texto.md): escribir, añadir, leer por líneas y cerrar el archivo.
 * [7.D Interfaces gráficas](t-gui.md): eventos, estado y una ventana completa.
-* [7.E Ficheros con Path, bytes y bloques](t-path.md): la clase `Path`, ficheros binarios y lectura por bloques (solo en Kotlin).
+* [7.E Ficheros con Path, bytes y bloques](t-path.md): la clase `Path`, errores concretos, ficheros binarios y lectura por bloques.
 
 ## Antes de empezar: qué debes dominar
 

@@ -164,3 +164,7 @@ nav:
       - "A5.B Patrones de comportamiento": avanzado/a5/t-comportamiento.md
       - "A5.C Estructura y cuándo usar patrones": avanzado/a5/t-estructura.md
       - "A5 · Ejercicios de patrones de diseño": avanzado/a5/ejercicios.md
+  - "Acceso a datos · Persistencia en ficheros":
+      - ada/index.md
+      - "Ficheros log": ada/logs.md
+      - "Simulador de examen": ada/simulador.md

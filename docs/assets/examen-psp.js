@@ -7,7 +7,7 @@
   var raiz = document.getElementById("examen-psp");
   if (!DATOS || !raiz) return;
 
-  var CLAVE = "examenPSP.v1";
+  var CLAVE = "examenADA.v1";
   function leer() { try { return JSON.parse(localStorage.getItem(CLAVE)) || { intentos: [], fallos: {} }; } catch (e) { return { intentos: [], fallos: {} }; } }
   function guardar(d) { try { localStorage.setItem(CLAVE, JSON.stringify(d)); } catch (e) { /* sin almacenamiento: no pasa nada */ } }
 

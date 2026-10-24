@@ -8,7 +8,7 @@ Examen **tipo test** hecho a partir de los apuntes del módulo: preguntas de teo
     * **Repaso**: sin tiempo, y cada pregunta se corrige al momento con su explicación.
     * Las preguntas que fallas se guardan **en tu navegador** para volver a practicarlas con «Repasar mis fallos».
     * Los programas **se han compilado y ejecutado de verdad** con Kotlin para obtener la salida correcta.
-    * «Examen teórico» incluye las preguntas de «qué muestra este programa». El «examen práctico» no tiene preguntas en este tema.
+    * «Examen tipo test»: 20 preguntas al azar, con las de «qué muestra este programa» incluidas. Esta asignatura solo tiene test.
 
 !!! warning "No es la prueba real"
     Es un banco de práctica. Si tu examen es a mano, practica también escribiendo las respuestas en papel.

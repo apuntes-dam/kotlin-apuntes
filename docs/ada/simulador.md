@@ -8,12 +8,12 @@ Examen **tipo test** hecho a partir de los apuntes del módulo: preguntas de teo
     * **Repaso**: sin tiempo, y cada pregunta se corrige al momento con su explicación.
     * Las preguntas que fallas se guardan **en tu navegador** para volver a practicarlas con «Repasar mis fallos».
     * Los programas **se han compilado y ejecutado de verdad** con Kotlin para obtener la salida correcta.
-    * «Examen tipo test»: 20 preguntas al azar, con las de «qué muestra este programa» incluidas. Esta asignatura solo tiene test.
+    * «Examen tipo test»: 60 preguntas al azar (90 minutos), con las de «qué muestra este programa» incluidas. Esta asignatura solo tiene test.
 
 !!! warning "No es la prueba real"
     Es un banco de práctica. Si tu examen es a mano, practica también escribiendo las respuestas en papel.
 
 <div id="examen-psp"><noscript>El simulador necesita JavaScript.</noscript></div>
 
-<script src="../../assets/examen-psp-datos.js?v=d3a85e60"></script>
-<script src="../../assets/examen-psp.js?v=941648f7"></script>
+<script src="../../assets/examen-psp-datos.js?v=d6ef8575"></script>
+<script src="../../assets/examen-psp.js?v=0d1eec54"></script>

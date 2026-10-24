@@ -111,7 +111,7 @@
   function empezar(que) {
     var t = tema, items = [], limite = 0, nombre = "";
     var todos = function (tipo) { return t[tipo].map(function (q, i) { q.i = i; return q; }); };
-    if (que === "teoria") { nombre = "Teórico"; limite = 25 * 60; items = elegir(t, todos("teoria"), 20).map(function (q, i) { return crearItem(t, q, "teoria", i); }); }
+    if (que === "teoria") { nombre = "Teórico"; limite = (t.minutos || 25) * 60; items = elegir(t, todos("teoria"), t.nteoria || 20).map(function (q, i) { return crearItem(t, q, "teoria", i); }); }
     else if (que === "practica") {
       nombre = "Práctico"; limite = 60 * 60;
       var s = elegir(t, todos("salida"), 2).map(function (q) { return crearItem(t, q, "salida", 0); });

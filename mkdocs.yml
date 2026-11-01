@@ -167,4 +167,3 @@ nav:
   - "Acceso a datos · Persistencia en ficheros":
       - ada/index.md
       - "Ficheros log": ada/logs.md
-      - "Simulador de examen": ada/simulador.md

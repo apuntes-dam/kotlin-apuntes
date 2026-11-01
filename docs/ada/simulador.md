@@ -1,3 +1,9 @@
+---
+search:
+  exclude: true
+noindex: true
+---
+
 # Simulador de examen · Acceso a datos (Persistencia en ficheros)
 
 Examen **tipo test** hecho a partir de los apuntes del módulo: preguntas de teoría y **qué muestra un programa** en Kotlin (con cuatro salidas posibles).

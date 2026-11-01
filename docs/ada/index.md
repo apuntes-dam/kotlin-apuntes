@@ -1,6 +1,6 @@
 # Acceso a datos · Persistencia en ficheros
 
-Esta sección acompaña al módulo *Acceso a Datos* de 2.º DAM. Los apuntes de clase están en la Moodle del curso (son del profesor, no de esta web). Aquí no se repiten: se indica **dónde estudiar cada apartado** en las unidades de esta web, se añade lo que faltaba (**ficheros log**) y hay un **simulador de examen tipo test**.
+Esta sección acompaña al módulo *Acceso a Datos* de 2.º DAM. Los apuntes de clase están en la Moodle del curso (son del profesor, no de esta web). Aquí no se repiten: se indica **dónde estudiar cada apartado** en las unidades de esta web, se añade lo que faltaba (**ficheros log**).
 
 ## Dónde estudiar cada apartado de los apuntes
 

@@ -15,5 +15,5 @@ Examen **tipo test** hecho a partir de los apuntes del módulo: preguntas de teo
 
 <div id="examen-psp"><noscript>El simulador necesita JavaScript.</noscript></div>
 
-<script src="../../assets/examen-psp-datos.js?v=530043cd"></script>
+<script src="../../assets/examen-psp-datos.js?v=63753ab6"></script>
 <script src="../../assets/examen-psp.js?v=2254d975"></script>

@@ -14,6 +14,10 @@ Esta sección acompaña al módulo *Acceso a Datos* de 2.º DAM. Los apuntes de 
 | Ficheros de texto y bloques de caracteres | [7.C Ficheros de texto](../u07/t-texto.md) y [7.E](../u07/t-path.md) |
 | Ficheros log (SLF4J, Logback, kotlin-logging) | [Ficheros log](logs.md), página de esta sección |
 
+## Si tu próximo examen es el de 1.PD-B
+
+Hay una página con [qué es probable que entre](prediccion.md): está hecha leyendo los apuntes reales de 1.PD-B y las soluciones oficiales de los ejercicios 14, 15 y 16 de la Moodle, no son preguntas inventadas.
+
 ## Simulador de examen
 
 El [simulador](simulador.md) es **tipo test**: preguntas de teoría y «qué muestra este programa» en Kotlin (la opción correcta es la salida real de ejecutarlo). Cubre: persistencia, entrada y salida estándar, `Path`, excepciones, ficheros binarios, ficheros de texto y ficheros log.

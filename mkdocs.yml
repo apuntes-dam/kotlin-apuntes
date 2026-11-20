@@ -167,4 +167,5 @@ nav:
   - "Acceso a datos · Persistencia en ficheros":
       - ada/index.md
       - "Ficheros log": ada/logs.md
+      - "Qué es probable que entre (1.PD-B)": ada/prediccion.md
       - "Simulador de examen": ada/simulador.md
